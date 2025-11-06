@@ -49,4 +49,4 @@ export const PageSizes = {
   Legal: [612.0, 1008.0],
   Letter: [612.0, 792.0],
   Tabloid: [792.0, 1224.0],
-} as const satisfies Record<string, [number, number]>;
+} as const;
